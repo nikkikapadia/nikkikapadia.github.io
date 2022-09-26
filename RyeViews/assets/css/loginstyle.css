@@ -1,0 +1,36 @@
+body {
+    background: linear-gradient(rgba(0, 0, 50, 0.5), rgba(0, 0, 50,0.5)), url(../images/SLC.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.login-box{
+    max-width: 700px;
+    float: none;
+    margin: 200px auto;
+}
+
+.login-left{
+    background-color: rgba(211, 211, 211, 0.5);
+    padding: 30px;
+}
+
+.login-right{
+    background: #fff;
+    padding: 30px;
+}
+
+.error {
+    color: #884b4b;
+    background: rgb(245, 188, 188);
+    border: 1px solid #6e3a3d;
+    border-radius: 5px;
+    padding: 3px;
+    font-size: small;
+  }
+
+li {
+
+    padding-left: 5px;
+    list-style-type:none;
+}

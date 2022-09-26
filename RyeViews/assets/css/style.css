@@ -1,0 +1,229 @@
+body {
+  background-color: aliceblue;
+  margin: 0px;
+   min-height: 100%;
+   width: 100%;
+}
+
+h1 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 80px;
+  color: #14213d;
+  text-align: center;
+  text-shadow: 4px 4px 5px aliceblue;
+  padding-top: 70px;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  height: 300px;
+}
+
+.title-card {
+  background-color: aliceblue;
+  height: 300px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+}
+
+h2 {
+  font-size: 45px
+}
+
+nav.nav{
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  z-index: +1;
+  background-color: #14213d;
+  padding: 1%;
+  width: 100%;
+}
+
+a.nav-link {
+  display: inline;
+  text-align: center;
+  color: aliceblue;
+}
+
+a.nav-link:hover {
+  color: black;
+  background-color: AliceBlue;
+}
+
+a.selected {
+  background-color: AliceBlue;
+  color: black;
+}
+
+button.btn {
+  background-color:#14213d;
+  border-color: #14213d;
+}
+
+button.btn:hover {
+  color: black;
+  background-color: AliceBlue;
+  border-color: black;
+}
+
+a.btn:hover {
+  color: black;
+  background-color: AliceBlue;
+  border-color: black;
+}
+
+.row {
+  padding: 50px;
+}
+
+.test {
+  column-span: 500px;
+
+}
+.card {
+   margin-bottom: 3%;
+   margin-top: 1%;
+}
+
+.one {
+  clear: both;
+}
+
+.item {
+  float: left;
+  margin: 0.25%;
+  width: 24.5%;
+}
+
+.card-img-top {
+  min-height: 225px;
+}
+
+div.largecol {
+  width: 65%;
+  margin-left: 2%;
+  margin-right: 2%;
+}
+
+div.smallcol {
+  width: 31%;
+}
+
+a.btn {
+  background-color:#14213d;
+  border-color: #14213d;
+}
+
+img.main {
+  vertical-align: middle;
+  float: right;
+  height: 50%;
+  width: 50%;
+}
+
+.border-secondary {
+   max-width: 18rem;
+   padding-right: 0;
+}
+
+footer {
+  background-color: #14213d;
+  padding: 2%;
+  color: #fca311;
+  margin-top: 2%;
+  clear: both;
+  display: block;
+}
+
+label.heading {
+  font-family: serif;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+/* responsive design for tablets*/
+@media only screen and (max-width: 830px) {
+  .three {
+    clear: both;
+  }
+  .one {
+    clear: both;
+  }
+  .item {
+    float: left;
+    margin: 0.25%;
+    width: 49.5%;
+  }
+
+  .card-img-top {
+    min-height: 275px;
+  }
+  
+  .center {
+        text-align: center;
+        width: 500px;
+        height: auto;
+    }
+  .title-card {
+        height: 200px;
+    }
+
+}
+
+/* responsive design for mobiles*/
+@media only screen and (max-width: 600px) {
+  nav.nav{
+     position: relative;
+  }
+  a.nav-link{
+    flex: 100%;
+    text-align: center;
+  }
+  .col-8 {
+    padding: 15px;
+  }
+
+  div.largecol {
+    width: 100%;
+    margin-left: 2%;
+    margin-right: 2%;
+  }
+
+  div.smallcol {
+    width: 100%;
+    margin-left: 2%;
+    margin-right: 2%;
+    display: grid;
+    justify-content: center;
+  }
+
+  .item {
+    float: none;
+    margin: 1%;
+    width: 98%;
+  }
+  
+    .center {
+        text-align: center;
+        width: 270px;
+        height: auto;
+    }
+  .title-card {
+        height: 150px;
+    }
+    h1 {
+        font-family: 'Montserrat', sans-serif;
+        font-size: 60px;
+        color: #14213d;
+        text-align: center;
+        text-shadow: 4px 4px 5px aliceblue;
+        padding-top: 70px;
+}
+  
+
+}
